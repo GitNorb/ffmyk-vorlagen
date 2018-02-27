@@ -1,42 +1,71 @@
-%\documentclass[aspectratio=43]{beamer}
-\documentclass[c]{beamer}
-\usetheme{intridea}  %% Themenwahl
-
-\usepackage[ngerman]{babel} 
-\usepackage[T1]{fontenc}    % richtige Silbentrennung
-\usepackage[utf8]{inputenc} % Umlaute etc.!
-\usepackage{eurosym}
-\usepackage{tikz}
-
-\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,fit,positioning,shapes.symbols,chains}
-
-%1
-
-\title{Freifunk-MYK}
-\author{Norbert Härig, Michael Lambert}
-\date{\today}
-
-%2
+\documentclass{beamer}
+\usepackage{Stil}
 \begin{document}
-\maketitle
+\title[Freie Netzer]{Freifunk-MYK}
+\subtitle[Freifunk-MYK]{Freie Netze}
+\author[Freifunk-MYK]{Norbert Härig, Michael Lambert}
+\date{\today\\\vspace{0.5cm} \includegraphics[scale=0.1]{Bilder/Logo.png}}
+\institute{}
 
-\begin{frame}{Was ist Freifunk?}
+\begin{frame}
+\titlepage	
+\end{frame}
+\begin{frame}{Inhaltsverzeichnis}
+	\tableofcontents
+\end{frame}
+\section{Kapitel 1}
+\begin{frame}{Titel der ersten Folie}
+\begin{itemize}
+	\item Punkt 1
+	\item Punkt 2
+\end{itemize}
+\end{frame}
+\section{Kapitel 2}
+\begin{frame}{Titel der zweiten Folie}
 	\begin{itemize}
-		\item Initiative für freie, offene, kostenlose Netzwerke
-		\item Öffentlich - freifunk steht jedem offen, als Nutzer oder Anbieter
-		\item Im Besitz der Gemeinschaft - Wird von den Menschen betrieben, die es nutzen
-		\item Nicht kommerziell
-		\item Ausschliesslich freie, quelloffene Programme
-		\item Netzneutral - keine Manipulation der Datenströme
-		\item In  \href{http://freifunk.net/wie-mache-ich-mit/community-finden/}{139 Orten} gibt es bereits Freifunknetze mit mehr als 7500 Zugangspunkten
+		\item Punkt 1
+		\item Punkt 2
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Quellenzeugs nicht Vergessen!!!}
+
+% und hier beginnt die Präsentation
+\begin{frame}{Referenten}
 \begin{itemize}
-		\item Quellen!
+	\item Norbert Härig
+	\begin{itemize}
+		\item Brohl
+		\item Student
+		\item Freifunker seit 2014
+	\end{itemize}
+	\item Michael Lambert
+	\begin{itemize}
+		\item Sinzig
+		\item EDV-Koordinator Schulen im Kreis Ahrweiler
+		\item Freifunker seit 2016
+	\end{itemize}
 \end{itemize}
 \end{frame}
 
+\begin{frame}{Freie Netzwerke - Wozu?}
+\begin{itemize}
+	\item Die Informations- und Kommunikationsfreiheit im Internet wird zunehmend eingeschränkt.
+	\item Trotz des Slogans "Internet für alle" gibt es Anzeichen einer sich verfestigenden digitalen Kluft - ärmere, weniger technisch versierte und ältere Menschen nehmen wenig oder gar nicht am sogenannten Informationszeitalter teil.
+	\item Besonders für Flüchtlinge wertvoll zur Kontaktaufnahme mit der Heimat und als Informationsquelle (Ärzte, Infos über die Stadt, ...).
+	\item In dünn besiedelten und strukturschwachen Gebieten (“areas of market failure”) werden keine (bezahlbaren) Breitbandanschlüsse angeboten.
+	\item Besser ein Netz, das der Gemeinschaft gehört als eins, das von wenigen Großkonzernen kontrolliert wird.
+	
+\end{itemize}
+\end{frame}
+
+\begin{frame}{WLAN - Wozu?}
+WLAN vs. Mobilfunk
+\begin{itemize}
+
+\item Geringe Abdeckung in ländlichen Regionen
+\item Je nach Tarif teuer / Limit
+\item Geräte ohne SIM
+\end{itemize}
+\end{frame}
 
 \end{document}
